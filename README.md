@@ -24,6 +24,8 @@ down to the components that need it.
 
 ## Deliverables
 
+## App [x]
+
 Have a look at the components below and draw out a component hierarchy so you
 can determine how to pass data down as props.
 
@@ -48,27 +50,27 @@ Make an `About` component as a child of `App`. It should return:
   [x] a `<p>` element, with the text for the blog passed in as a prop called
     `about`
 
-### ArticleList []
+### ArticleList [x]
 
 Make an `ArticleList` component as a child of `App`. It should return:
 
-- a `<main>` element with the following components inside:
-  - an array of `Article` components (one component for each post passed down as
+[x] a `<main>` element with the following components inside:
+  [x] an array of `Article` components (one component for each post passed down as
     a prop called `post` to `ArticleList`)
-  - make sure to assign a unique `key` prop to each `Article`
+  [x] make sure to assign a unique `key` prop to each `Article`
 
 ### Article []
 
 Make an `Article` component as a child of `ArticleList`. It should return:
 
-- an `<article>` element, with the following elements inside:
-  - an `<h3>` element displaying the title of the article, passed as a prop
+[] an `<article>` element, with the following elements inside:
+  [] an `<h3>` element displaying the title of the article, passed as a prop
     called `title`
-  - a `<small>` element displaying the date of the article, passed as a prop
+  [] a `<small>` element displaying the date of the article, passed as a prop
     called `date`
     - a _default value_ of "January 1, 1970" should be used if no date is passed
       as a prop
-  - a `<p>` element displaying the preview of the article, passed as a prop
+  [] a `<p>` element displaying the preview of the article, passed as a prop
     called `preview`
 
 ### Bonus Feature: 'Minutes to Read'
