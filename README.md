@@ -27,28 +27,28 @@ down to the components that need it.
 Have a look at the components below and draw out a component hierarchy so you
 can determine how to pass data down as props.
 
-### Header
+ ### Header [x]
 
 Make a `Header` component as a child of `App`. It should return:
 
 - a `<header>` element with the following elements inside:
   - an `<h1>` with the name of the blog, passed as a prop called `name`
 
-### About
+### About [?]
 
 Make an `About` component as a child of `App`. It should return:
 
-- an `<aside>` element with the following elements inside:
-  - an `<img>` element, with the `src` set to an image passed as a prop called
+[x] an `<aside>` element with the following elements inside:
+  [x] an `<img>` element, with the `src` set to an image passed as a prop called
     `image`
-  - the `<img>` element should use this placeholder image as a _default value_
+  [x] the `<img>` element should use this placeholder image as a _default value_
     for the prop if no prop is passed in: "https://via.placeholder.com/215"
-  - the image should also be accessible! Give it an `alt` attribute of "blog
+  [x] the image should also be accessible! Give it an `alt` attribute of "blog
     logo"
-  - a `<p>` element, with the text for the blog passed in as a prop called
+  [x] a `<p>` element, with the text for the blog passed in as a prop called
     `about`
 
-### ArticleList
+### ArticleList []
 
 Make an `ArticleList` component as a child of `App`. It should return:
 
@@ -57,7 +57,7 @@ Make an `ArticleList` component as a child of `App`. It should return:
     a prop called `post` to `ArticleList`)
   - make sure to assign a unique `key` prop to each `Article`
 
-### Article
+### Article []
 
 Make an `Article` component as a child of `ArticleList`. It should return:
 
